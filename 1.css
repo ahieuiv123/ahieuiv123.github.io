@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0;}
+
+header nav li:hover a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+header nav li a {
+    color: black;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.5s;
+}
+
+.noidung .content ul li a img {
+    width: 100%;
+}
+
+.noidung .content ul li {
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.noidung {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 4px 9px;
+    background: #ff0833;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+header nav ul {
+    display: inline-block;
+}
+
+nav {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+} 
